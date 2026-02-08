@@ -5,7 +5,7 @@ const services = [
   {
     icon: Paintbrush,
     title: "Brand Design",
-    description: "Identity systems, guidelines, and visual language that make agencies shine.",
+    description: "Identity systems, guidelines, and visual language that make agencies shine internationally.",
   },
   {
     icon: Layout,
@@ -13,24 +13,24 @@ const services = [
     description: "User-centered interfaces from wireframes to polished, pixel-perfect mockups.",
   },
   {
+    icon: Film,
+    title: "Video Editing",
+    description: "Professional post-production, color grading, and editing for campaigns and content.",
+  },
+  {
+    icon: Globe,
+    title: "Motion Design",
+    description: "Animations, explainers, and kinetic typography that captivate global audiences.",
+  },
+  {
     icon: Code2,
     title: "Web Development",
     description: "Fast, responsive, and accessible websites built with modern frameworks.",
   },
   {
-    icon: Film,
-    title: "Motion & Video",
-    description: "Animations, explainers, and social content that captivate audiences.",
-  },
-  {
     icon: PenTool,
     title: "Illustration",
     description: "Custom illustrations and iconography tailored to any brand voice.",
-  },
-  {
-    icon: Globe,
-    title: "Digital Strategy",
-    description: "Research-backed creative direction that aligns with business goals.",
   },
 ];
 
