@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-      {/* Subtle glow */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px] pointer-events-none" />
+      {/* Subtle background element */}
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-foreground/[0.02] blur-[120px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -38,7 +38,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             A dedicated team of four professionals for your agency — unlimited projects, 
-            one simple monthly fee. Scale your output without scaling your overhead.
+            one simple monthly fee. Working with agencies internationally.
           </motion.p>
 
           <motion.div

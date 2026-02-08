@@ -9,10 +9,11 @@ const Navbar = () => {
     { label: "How it works", href: "#how-it-works" },
     { label: "Team", href: "#team" },
     { label: "Services", href: "#services" },
+    { label: "Projects", href: "#projects" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-lg border-b border-border/50">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="font-display font-bold text-xl tracking-tight text-foreground">
           four<span className="text-primary">.</span>

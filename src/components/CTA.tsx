@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 const CTA = () => {
   return (
     <section id="contact" className="py-24 md:py-32 relative overflow-hidden">
-      {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-primary/5 blur-[150px] pointer-events-none" />
+      {/* Background element */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-foreground/[0.02] blur-[150px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
